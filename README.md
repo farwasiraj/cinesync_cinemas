@@ -35,6 +35,40 @@ CineSync handles both by limiting tickets per CNIC and by raising the price auto
 | ✅ **Input validation** | Menus and numeric inputs are validated and re-asked, so wrong input does not crash the program. |
 | 💾 **Persistent storage** | All data is kept in plain .txt files using C file handling. |
 
+
+## 🧪 Test Cases & Execution Scenarios
+
+### Test Case 1: User Registration
+- **Description:** Register a new customer account.
+- **Input:** Unique username, valid password and 13-digit CNIC.
+- **Expected Output:** Account registered successfully.
+
+### Test Case 2: User Login
+- **Description:** Log in using registered credentials.
+- **Input:** Correct username and password.
+- **Expected Output:** Successful login and customer menu displayed.
+
+### Test Case 3: Movie Schedule
+- **Description:** View the available movies.
+- **Input:** Select View Movies.
+- **Expected Output:** Movie names, timings and screen numbers displayed.
+
+### Test Case 4: Seat Booking
+- **Description:** Book an available seat.
+- **Input:** Movie ID, ticket quantity and available row and seat number.
+- **Expected Output:** Booking successful and ticket token generated.
+
+### Test Case 5: Ticket Verification
+- **Description:** Verify a previously generated ticket.
+- **Input:** Valid ticket token.
+- **Expected Output:** VALID TICKET displayed with booking details.
+
+### Test Case 6: Booking History
+- **Description:** View tickets purchased by the logged-in customer.
+- **Input:** Select My Bookings.
+- **Expected Output:** All bookings belonging to the customer displayed.
+
+
 ## 🎞️ Now showing
 
 | ID | Movie | Time | Screen |
